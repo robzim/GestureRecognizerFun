@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C0B4DA81BE406C7003CBE69 /* transparent-new-egret.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C0B4DA61BE406C7003CBE69 /* transparent-new-egret.png */; };
+		7C0B4DA91BE406C7003CBE69 /* transparent-new-osprey.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C0B4DA71BE406C7003CBE69 /* transparent-new-osprey.png */; };
 		7CE5B5691A66CDA400F46AAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5B5681A66CDA400F46AAE /* main.m */; };
 		7CE5B5771A66CDA400F46AAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE5B5751A66CDA400F46AAE /* Main.storyboard */; };
 		7CE5B5791A66CDA400F46AAE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE5B5781A66CDA400F46AAE /* Images.xcassets */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C0B4DA61BE406C7003CBE69 /* transparent-new-egret.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "transparent-new-egret.png"; sourceTree = "<group>"; };
+		7C0B4DA71BE406C7003CBE69 /* transparent-new-osprey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "transparent-new-osprey.png"; sourceTree = "<group>"; };
 		7CE5B5631A66CDA400F46AAE /* GestureRecognizerFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureRecognizerFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CE5B5671A66CDA400F46AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CE5B5681A66CDA400F46AAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -52,7 +56,7 @@
 		7CE5B5871A66CDA500F46AAE /* GestureRecognizerFunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureRecognizerFunTests.m; sourceTree = "<group>"; };
 		7CE5B5911A66CE3200F46AAE /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7CE5B5921A66CE3200F46AAE /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7CE5B5931A66CE3200F46AAE /* bokeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bokeh.png; sourceTree = "<group>"; };
+		7CE5B5931A66CE3200F46AAE /* bokeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bokeh.png; path = ../bokeh.png; sourceTree = "<group>"; };
 		7CE5B5941A66CE3200F46AAE /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
 		7CE5B5951A66CE3200F46AAE /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
 		7CE5B5961A66CE3200F46AAE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -64,11 +68,11 @@
 		7CE5B59C1A66CE3200F46AAE /* myEgretParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = myEgretParticle.sks; sourceTree = "<group>"; };
 		7CE5B59D1A66CE3200F46AAE /* mySmoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = mySmoke.sks; sourceTree = "<group>"; };
 		7CE5B59E1A66CE3200F46AAE /* mySnow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = mySnow.sks; sourceTree = "<group>"; };
-		7CE5B59F1A66CE3200F46AAE /* rz DARK egret with alpha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rz DARK egret with alpha.png"; sourceTree = "<group>"; };
-		7CE5B5A01A66CE3200F46AAE /* rz egret with alpha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rz egret with alpha.png"; sourceTree = "<group>"; };
-		7CE5B5A11A66CE3200F46AAE /* rz Osprey Photo with Alpha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rz Osprey Photo with Alpha.png"; sourceTree = "<group>"; };
-		7CE5B5A21A66CE3200F46AAE /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
-		7CE5B5A31A66CE3200F46AAE /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
+		7CE5B59F1A66CE3200F46AAE /* rz DARK egret with alpha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rz DARK egret with alpha.png"; path = "../rz DARK egret with alpha.png"; sourceTree = "<group>"; };
+		7CE5B5A01A66CE3200F46AAE /* rz egret with alpha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rz egret with alpha.png"; path = "../rz egret with alpha.png"; sourceTree = "<group>"; };
+		7CE5B5A11A66CE3200F46AAE /* rz Osprey Photo with Alpha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rz Osprey Photo with Alpha.png"; path = "../rz Osprey Photo with Alpha.png"; sourceTree = "<group>"; };
+		7CE5B5A21A66CE3200F46AAE /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spark.png; path = ../spark.png; sourceTree = "<group>"; };
+		7CE5B5A31A66CE3200F46AAE /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sun.png; path = ../sun.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +98,6 @@
 			children = (
 				7CE5B5911A66CE3200F46AAE /* AppDelegate.h */,
 				7CE5B5921A66CE3200F46AAE /* AppDelegate.m */,
-				7CE5B5931A66CE3200F46AAE /* bokeh.png */,
 				7CE5B5941A66CE3200F46AAE /* GameScene.h */,
 				7CE5B5951A66CE3200F46AAE /* GameScene.m */,
 				7CE5B5961A66CE3200F46AAE /* GameScene.sks */,
@@ -106,11 +109,6 @@
 				7CE5B59C1A66CE3200F46AAE /* myEgretParticle.sks */,
 				7CE5B59D1A66CE3200F46AAE /* mySmoke.sks */,
 				7CE5B59E1A66CE3200F46AAE /* mySnow.sks */,
-				7CE5B59F1A66CE3200F46AAE /* rz DARK egret with alpha.png */,
-				7CE5B5A01A66CE3200F46AAE /* rz egret with alpha.png */,
-				7CE5B5A11A66CE3200F46AAE /* rz Osprey Photo with Alpha.png */,
-				7CE5B5A21A66CE3200F46AAE /* spark.png */,
-				7CE5B5A31A66CE3200F46AAE /* sun.png */,
 				7CE5B5651A66CDA400F46AAE /* GestureRecognizerFun */,
 				7CE5B5841A66CDA500F46AAE /* GestureRecognizerFunTests */,
 				7CE5B5641A66CDA400F46AAE /* Products */,
@@ -140,8 +138,16 @@
 		7CE5B5661A66CDA400F46AAE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7CE5B5931A66CE3200F46AAE /* bokeh.png */,
+				7CE5B59F1A66CE3200F46AAE /* rz DARK egret with alpha.png */,
+				7CE5B5A01A66CE3200F46AAE /* rz egret with alpha.png */,
+				7CE5B5A11A66CE3200F46AAE /* rz Osprey Photo with Alpha.png */,
+				7CE5B5A21A66CE3200F46AAE /* spark.png */,
+				7CE5B5A31A66CE3200F46AAE /* sun.png */,
 				7CE5B5671A66CDA400F46AAE /* Info.plist */,
 				7CE5B5681A66CDA400F46AAE /* main.m */,
+				7C0B4DA61BE406C7003CBE69 /* transparent-new-egret.png */,
+				7C0B4DA71BE406C7003CBE69 /* transparent-new-osprey.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -207,7 +213,7 @@
 		7CE5B55B1A66CDA400F46AAE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = "Robert Zimmelman";
 				TargetAttributes = {
 					7CE5B5621A66CDA400F46AAE = {
@@ -221,7 +227,7 @@
 			};
 			buildConfigurationList = 7CE5B55E1A66CDA400F46AAE /* Build configuration list for PBXProject "GestureRecognizerFun" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -244,10 +250,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CE5B5B31A66CE3200F46AAE /* sun.png in Resources */,
+				7C0B4DA91BE406C7003CBE69 /* transparent-new-osprey.png in Resources */,
 				7CE5B57C1A66CDA400F46AAE /* LaunchScreen.xib in Resources */,
 				7CE5B5A71A66CE3200F46AAE /* GameScene.sks in Resources */,
 				7CE5B5AA1A66CE3200F46AAE /* myBokehParticle.sks in Resources */,
 				7CE5B5B11A66CE3200F46AAE /* rz Osprey Photo with Alpha.png in Resources */,
+				7C0B4DA81BE406C7003CBE69 /* transparent-new-egret.png in Resources */,
 				7CE5B5A51A66CE3200F46AAE /* bokeh.png in Resources */,
 				7CE5B5AB1A66CE3200F46AAE /* myClimbingOspreys.sks in Resources */,
 				7CE5B5AD1A66CE3200F46AAE /* mySmoke.sks in Resources */,
@@ -325,17 +333,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -344,6 +364,7 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -356,7 +377,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -367,17 +388,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -385,13 +418,14 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
